@@ -214,6 +214,7 @@ letter-spacing: -0.1px;
 
 .sectionFour{
   margin-top: 100px;
+  padding-bottom: 50px;
 }
 
 .sectionFour h2{
@@ -249,7 +250,7 @@ font-size: 42px;
 line-height: 36px;
 letter-spacing: -0.15px;
 color: #0D0A19;
-padding: 20px 45px 20px 24px;
+padding: 20px 42px 20px 19px;
 text-align: center;
 margin-bottom: 25px;
 }
@@ -280,6 +281,194 @@ color: #9A9EA7;
   align-items: center;
   justify-content: center;
 }
+
+.secFourHeader{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.sectionFour h3 {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 36px;
+letter-spacing: -0.1px;
+color: #0D0A19;
+}
+.secFourHeaderButton{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 21px;
+text-align: center;
+letter-spacing: -0.1px;
+color: #9A9EA7;
+}
+.btnActive{
+background: #FFFFFF;
+border: 1px solid #EEEEEE;
+border-radius: 8px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 21px;
+text-align: center;
+letter-spacing: -0.1px;
+color: #0D0A19;
+}
+.popularP{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: -0.1px;
+color: #9A9EA7;
+margin-bottom: 50px;
+}
+.otherP{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: -0.1px;
+color: #9A9EA7;
+margin-bottom: 20px;
+}
+.popularInfo{
+  display: flex;
+  margin-bottom: 35px;
+  
+}
+.popularInfo div{
+  margin-left: 25px;
+}
+.popularInfo img{
+  width: 36px;
+  height: 36px;
+}
+.popularName{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+color: #0D0A19;
+margin-bottom: 0px;
+}
+.popularNumber{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: -0.1px;
+color: #9A9EA7;
+}
+.otherMakes{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.otherMakesName{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 35px;
+color: #0D0A19;
+margin-bottom: 0px;
+}
+.otherMakesNumber{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 35px;
+text-align: right;
+color: #0D0A19;
+margin-bottom: 0px;
+
+}
+.sectionFive{
+height: 276px;
+background: #F5F6F7;
+}
+
+.sectionFive p{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 33px;
+  letter-spacing: -0.1px;
+  color: #9A9EA7;
+  margin-bottom: 0px;
+
+}
+
+.sectionFive .activeP{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: -0.1px;
+color: #0D0A19;
+}
+.sectionFive .row {
+  padding-top: 70px;
+}
+footer{
+  padding: 10px 0px 5px 0px;
+}
+
+.footerLeft p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 40px;
+letter-spacing: -0.1px;
+color: #0D0A19;
+margin-right: 10px;
+margin-bottom: 0px;
+}
+
+.copyRight{
+font-weight: 400 !important;
+color: #9A9EA7 !important;
+}
+
+.footerRightBtn{
+background: #FFFFFF;
+border-radius: 10px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: -0.1px;
+color: #9A9EA7;
+}
+.footerRightBtn img{
+  margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -312,6 +501,28 @@ color: #9A9EA7;
   }
   .counter div{
     padding: 20px 40px 20px 16px;
+  }
+  .secFourHeaderButton{
+    font-size: 8px;
+  }
+  .sectionFour h3{
+    font-size: 20px;
+  }
+  footer .container{
+    flex-direction: column-reverse;
+  }
+  .footerLeft{
+    display: flex !important;
+flex-direction: column;
+align-items: center;
+  }
+  footer .btn-group{
+    display: flex;
+align-items: center;
+justify-content: space-between;
+  }
+  footer{
+    background: #F5F6F7;
   }
 }
 
