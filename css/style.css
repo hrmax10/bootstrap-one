@@ -181,7 +181,12 @@ color: #9A9EA7;
 }
 .card{
   border: none;
+  transition: all 0.3s;
 }
+.card:hover{
+ transform: scale(1.02);
+}
+
 .btn1{
 background-color: #ccc8f3;
 color: #7963f0 ;
@@ -207,6 +212,79 @@ text-align: center;
 letter-spacing: -0.1px;
 }
 
+.sectionFour{
+  margin-top: 100px;
+}
+
+.sectionFour h2{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 36px;
+letter-spacing: -0.1px;
+color: #0D0A19;
+margin-top: 60px;
+}
+
+.secFourPOne{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: -0.1px;
+color: #0D0A19;
+margin-bottom: 25px;
+}
+
+.counter div {
+background: #FFFFFF;
+border: 1px solid #E4E6E8;
+border-radius: 10px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 36px;
+letter-spacing: -0.15px;
+color: #0D0A19;
+padding: 20px 45px 20px 24px;
+text-align: center;
+margin-bottom: 25px;
+}
+
+.secFourPTwo{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.1px;
+  color: #9A9EA7 !important;
+  margin-bottom: 30px;
+}
+.secFourBtn{
+background: #F5F6F7;
+border-radius: 10px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: -0.1px;
+color: #9A9EA7;
+}
+.imgHolder{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
 
 
 
@@ -231,6 +309,9 @@ letter-spacing: -0.1px;
   }
   .sectionTwo img{
     margin-top: 20px;
+  }
+  .counter div{
+    padding: 20px 40px 20px 16px;
   }
 }
 
