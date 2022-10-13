@@ -52,6 +52,7 @@ body {
   background: url(../images/Rectangle.png);
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 
 .heroHeading {
@@ -87,7 +88,7 @@ body {
   position: absolute;
   margin: 0px auto;
   left: 50%;
-  bottom: 10px;
+  bottom: -45px;
   transform: translateX(-50%);
   width: 98%;
   z-index: 999;
